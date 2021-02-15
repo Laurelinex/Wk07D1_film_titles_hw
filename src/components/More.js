@@ -1,9 +1,9 @@
 import React from "react";
 
-const More = () => {
+const More = ({calendar}) => {
     return (
         <div className="more">
-            <p>More link</p>
+            <a href={"https://www.imdb.com/calendar/?region=gb"}>View more upcoming releases</a>
         </div>
     )
 };
