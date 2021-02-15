@@ -1,9 +1,11 @@
 import React from "react";
 
-const Film = () => {
+const Film = ({url, children}) => {
     return (
         <div className="film">
-            <p>Film</p>
+            <ul>
+                <li><a href={url}>{children}</a></li>
+            </ul>
         </div>
     )
 };
